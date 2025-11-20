@@ -19,3 +19,5 @@ Ejecución
 Ejemplo de salida al ejecutar `main.py`:
 
 <img width="1346" height="755" alt="Captura de pantalla 2025-11-19 182747" src="https://github.com/user-attachments/assets/31d8abba-4fe7-4278-9638-8b9f3277db9d" />
+
+https://t.me/c/3113261883/16
