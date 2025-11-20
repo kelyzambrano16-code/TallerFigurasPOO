@@ -1,23 +1,16 @@
 Taller Figuras Geométricas (POO en Python)
-
-Este proyecto implementa clases de figuras geométricas aplicando los conceptos de:
-- Encapsulamiento con `@property` y `@setter`.
-- Herencia y polimorfismo.
-- Sobrescritura de métodos (`__str__`, `area`, `perimetro`).
-- Validaciones internas (valores mayores que 0).
-- Estándar PEP8 para nombres y estructura.
-  
-Clases
-- FiguraGeometrica  
-  Clase base con atributos privados (`_ancho`, `_alto`), validaciones y métodos comunes.
-- Cuadrado
-  Hereda de FiguraGeometrica. Recibe un solo parámetro (`lado`) y sobrescribe `area`, `perimetro` y `__str__`.
-- Rectangulo 
-  Hereda de FiguraGeometrica. Recibe `ancho` y `alto`, sobrescribe `area`, `perimetro` y `__str__`.
-
+Este proyecto implementa polimorfismo y herencia en Python con figuras geométricas.
+ Clases
+FiguraGeometrica: clase base con atributos `ancho` y `alto`, validaciones y método `area`.
+Cuadrado: recibe un lado, sobrescribe `area`, `perimetro` y `__str__`.
+Rectángulo: recibe ancho y alto, sobrescribe `area`, `perimetro` y `__str__`.
+Circunferencia: recibe radio, sobrescribe `area`, `perimetro` y `__str__`.
 Ejecución
-Ejemplo de salida al ejecutar `main.py`:
+El archivo `main.py` crea objetos, muestra áreas y perímetros, valida errores y suma resultados.
+Ejemplo de salida
 
-<img width="1346" height="755" alt="Captura de pantalla 2025-11-19 182747" src="https://github.com/user-attachments/assets/31d8abba-4fe7-4278-9638-8b9f3277db9d" />
+<img width="1362" height="714" alt="image" src="https://github.com/user-attachments/assets/f3b4abbe-a41c-42c5-b7a2-7a5fd4e9b12a" />
+
+
 <img width="780" height="590" alt="image" src="https://github.com/user-attachments/assets/2eb82b40-65b8-41e1-bcbd-a73f2feb1cdc" />
 
