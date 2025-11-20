@@ -1,10 +1,13 @@
 Taller Figuras Geométricas (POO en Python)
+
 Este proyecto implementa polimorfismo y herencia en Python con figuras geométricas.
- Clases
+
+Clases
 FiguraGeometrica: clase base con atributos `ancho` y `alto`, validaciones y método `area`.
 Cuadrado: recibe un lado, sobrescribe `area`, `perimetro` y `__str__`.
 Rectángulo: recibe ancho y alto, sobrescribe `area`, `perimetro` y `__str__`.
 Circunferencia: recibe radio, sobrescribe `area`, `perimetro` y `__str__`.
+
 Ejecución
 El archivo `main.py` crea objetos, muestra áreas y perímetros, valida errores y suma resultados.
 Ejemplo de salida
